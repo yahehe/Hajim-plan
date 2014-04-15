@@ -1,0 +1,22 @@
+{
+  "name": "Hajim-plan",
+  "version": "0.0.0",
+  "description": "plan yo classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremywrnr/Hajim-plan.git"
+  },
+  "keywords": [
+    "ur"
+  ],
+  "author": "sqltheprql",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremywrnr/Hajim-plan/issues"
+  },
+  "homepage": "https://github.com/jeremywrnr/Hajim-plan"
+}
