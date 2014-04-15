@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/jeremywrnr/Hajim-plan/issues"
   },
-  "homepage": "https://github.com/jeremywrnr/Hajim-plan"
+  "homepage": "https://github.com/jeremywrnr/Hajim-plan",
+  "dependencies": {
+    "logfmt": "^1.1.2",
+    "express": "^4.0.0"
+  }
 }
