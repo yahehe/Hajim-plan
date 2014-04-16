@@ -17,13 +17,12 @@ server.post("/user/add", function(req, res) {
 //server.get("/", function(req, res) {
 //});
 
- /* serves all the static files 
+ /* serves all the static files */
 server.get(/^(.+)$/, function(req, res){ 
 	res.sendfile('../app/index.html')
     console.log('static file request : ' + req.params);
     res.sendfile( __dirname + req.params[0]); 
 });
- */
 
 var port = process.env.PORT || 5000;
 server.listen(port, function() {
