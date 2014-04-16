@@ -1,16 +1,30 @@
-// web.js
-var express = require("express");
-var logfmt = require("logfmt");
-var app = express();
+ // better instead
+var express = require('express');
+var server = express();
 
-app.use(logfmt.requestLogger());
-app.use(express.static(__dirname + '/public'));
-
-app.get('/', function(req, res) {
-  res.send('Hello World!');
+// server set up
+server.configure(function(){
+  server.use('/media', express.static(__dirname + '/media'));
+  server.use(express.static(__dirname + '/public'));
 });
 
-var port = Number(process.env.PORT || 5000);
+/* some server side logic */
+app.post("/user/add", function(req, res) { 
+	res.send("OK");
+});
+	
+/* serves main page */
+//server.get("/", function(req, res) {
+//});
+
+ /* serves all the static files */
+server.get(/^(.+)$/, function(req, res){ 
+	res.sendfile('app/index.html')
+    console.log('static file request : ' + req.params);
+    res.sendfile( __dirname + req.params[0]); 
+});
+
+var port = process.env.PORT || 5000;
 app.listen(port, function() {
-  console.log("Listening on " + port);
+   console.log("Listening on " + port);
 });
