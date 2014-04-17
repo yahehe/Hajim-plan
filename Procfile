@@ -1,1 +1,1 @@
-web: node scripts/web.js
+web: node scripts/web-server.js
