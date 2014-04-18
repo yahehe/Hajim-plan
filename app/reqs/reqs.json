@@ -1,0 +1,22 @@
+[
+	{
+		"dept":"ECE",
+		"numb":"111",
+		"type":"core"
+	},
+	{
+		"dept":"ECE",
+		"numb":"112",
+		"type":"core"
+	},
+	{
+		"dept":"ECE",
+		"numb":"113",
+		"type":"core"
+	},
+	{
+		"dept":"ECE",
+		"numb":"114",
+		"type":"core"
+	}
+]
