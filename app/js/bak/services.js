@@ -2,11 +2,11 @@
 
 /* Services */
 
-var scheduleServices = angular.module('scheduleServices', ['ngResource']);
+var phonecatServices = angular.module('phonecatServices', ['ngResource']);
 
-scheduleServices.factory('Phone', ['$resource',
+phonecatServices.factory('Phone', ['$resource',
   function($resource){
     return $resource('phones/:phoneId.json', {}, {
       query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
     });
- }]);
+  }]);

@@ -2,15 +2,16 @@
 
 /* App Module */
 
-var scheduleApp = angular.module('scheduleApp', [
+var phonecatApp = angular.module('phonecatApp', [
   'ngRoute',
-  'scheduleAnimations',
-  'scheduleControllers',
-  'scheduleFilters',
-  'scheduleServices'
+  'phonecatAnimations',
+
+  'phonecatControllers',
+  'phonecatFilters',
+  'phonecatServices'
 ]);
 
-scheduleApp.config(['$routeProvider',
+phonecatApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/phones', {
