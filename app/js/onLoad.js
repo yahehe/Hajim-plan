@@ -1,3 +1,7 @@
+//code run at window loading
+
+// used to setup button loading
+
 'use strict';
 
 $(window).load(function(){
