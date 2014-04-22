@@ -16,3 +16,10 @@ scheduleControllers.controller('scheduleCtrl', ['$scope', '$http',
   		$scope.reqs = data;
   	}); 	
 }]);
+
+majorControllers.controller('majorCtrl', ['$scope', '$http', 
+  function($scope, $http) {
+  	$http.get('reqs/majors.json').success(function(data) {
+  		$scope.reqs = data;
+  	}); 	
+}]);
