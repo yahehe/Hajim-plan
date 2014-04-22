@@ -9,7 +9,7 @@ $(window).load(function(){
 	    $("#btnSave").click(function() { 
 	        html2canvas($(".majors"), {
 	            onrendered: function(canvas) {
-	                theCanvas = canvas;
+	                var theCanvas = canvas;
 	               // document.body.appendChild(canvas);
 
 	                // Convert and download as image 
