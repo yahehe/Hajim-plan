@@ -17,9 +17,7 @@ scheduleControllers.controller('scheduleCtrl', ['$scope', '$http',
   	}); 	
 }]);
 
-majorControllers.controller('majorCtrl', ['$scope', '$http', 
+scheduleControllers.controller('majorCtrl', ['$scope', '$http', 
   function($scope, $http) {
-  	$http.get('reqs/majors.json').success(function(data) {
-  		$scope.reqs = data;
-  	}); 	
+  	$http.get('reqs/majors.json').success(function(data) {$scope.majors = data;}  ); 	
 }]);
