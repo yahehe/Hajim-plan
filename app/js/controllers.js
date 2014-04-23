@@ -10,14 +10,17 @@ scheduleControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
     $scope.orderProp = 'age';
   }]);
 
-scheduleControllers.controller('scheduleCtrl', ['$scope', '$http', 
-  function($scope, $http) {
-  	$http.get('reqs/reqs.json').success(function(data) {
-  		$scope.reqs = data;
-  	}); 	
-}]);
-
 scheduleControllers.controller('majorCtrl', ['$scope', '$http', 
   function($scope, $http) {
   	$http.get('reqs/majors.json').success(function(data) {$scope.majors = data;}  ); 	
+}]);
+
+scheduleControllers.controller('scheduleCtrl', ['$scope', '$http', 
+  function($scope, $http) {
+  	//if($scope.majors === null) $scope.majors = 'ECE'; 
+  	var currentMajor = 'CHE';//$scope.majors;
+  	var reqsUrl = 'reqs/' + currentMajor + '.json';
+  	$http.get(reqsUrl).success(function(data) {
+  		$scope.reqs = data;
+  	}); 	
 }]);

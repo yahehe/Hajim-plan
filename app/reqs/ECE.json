@@ -1,113 +1,107 @@
 [
-	{
-		"dept”:”EAS”,
-		"numb":"10x”,
-		"type”:”core”
-	},
-	{
-		"dept”:”MTH”,
-		"numb":"161”,
-		"type”:”core”
-	},
-	{
-		"dept”:”MTH”,
-		"numb":"162”,
-		"type”:”core”
-	},
-	{
-		"dept”:”MTH”,
-		"numb":"164”,
-		"type”:”core”
-	},
-	{
-		"dept”:”MTH”,
-		"numb":"165”,
-		"type”:”core”
-	},
-	{
-		"dept”:”PHY”,
-		"numb":"121”,
-		"type”:”core”
-	},
-	{
-		"dept”:”PHY”,
-		"numb":"122”,
-		"type”:”core”
-	},
+	
+	
 	{
 		"dept":"ECE",
-		"numb":"111",
-		"type":"core"
-	},
-	{
-		"dept":"ECE",
-		"numb":"112",
-		"type":"core"
-	},
-	{
-		"dept":"ECE",
-		"numb":"113",
-		"type":"core"
-	},
-	{
-		"dept":"ECE",
-		"numb":"114",
-		"type":"core"
+		"numb”:”261”,
+		"type":
+			[{“track”: VLSI Design”}]
 	}
 	{
 		"dept":"ECE",
-		"numb":"111",
-		"type":"core"
-	},
-	{
-		"dept":"ECE",
-		"numb":"112",
-		"type":"core"
-	},
-	{
-		"dept":"ECE",
-		"numb":"113",
-		"type":"core"
-	},
-	{
-		"dept”:”ECE,
-		"numb”:”114”,
-		"type":"core"
+		"numb”:”266”,
+		"type":
+			[{“track”: VLSI Design”}]
 	}
 	{
 		"dept":"ECE",
-		"numb”:”241”,
-		"type":"core"
+		"numb”:”269”,
+		"type":
+			[{“track”: VLSI Design”}]
 	}
 	{
 		"dept":"ECE",
-		"numb”:”242,
-		"type":"core"
+		"numb”:”244”,
+		"type":
+			[{“track”: Signals/Systems/Communications”}]
 	}
 	{
 		"dept":"ECE",
-		"numb”:”221”,
-		"type":"core"
-	}
-	{
-		"dept”:”ECE,
-		"numb”:”222”,
-		"type":"core"
+		"numb”:”245”,
+		"type":
+			[{“track”: Signals/Systems/Communications”}]
 	}
 	{
 		"dept":"ECE",
-		"numb”:”230”,
-		"type":"core"
+		"numb”:”246”,
+		"type":
+			[{“track”: Signals/Systems/Communications”}]
 	}
 	{
 		"dept":"ECE",
-		"numb”:”2”0”,
-		"type":"core"
+		"numb”:”223”,
+		"type":
+			[{“track”: Waves and Devices”}]
 	}
 	{
 		"dept":"ECE",
-		"numb”:”216”,
-		"type":"core"
+		"numb”:”227”,
+		"type":
+			[{“track”: Waves and Devices”}]
+	}
+	{
+		"dept":"ECE",
+		"numb”:”235”,
+		"type":
+			[{“track”: Waves and Devices”}]
+	}
+	{
+		"dept":"ECE",
+		"numb”:”261”,
+		"type":
+			[{“track”: Waves and Devices”}]
+	}
+	{
+		"dept":"ECE",
+		"numb”:”266”,
+		"type":
+			[{“track”: Waves and Devices”}]
+	}
+	{
+		"dept":"ECE",
+		"numb”:”269”,
+		"type":
+			[{“track”: Waves and Devices”}]
+	}
+	{
+		"dept":"ECE",
+		"numb”:”201”,
+		"type":
+			[{“track”: Computer Organization”}]
+	}
+	{
+		"dept":"ECE",
+		"numb”:”206”,
+		"type":
+			[{“track”: Computer Organization”}]
+	}
+	{
+		"dept":"ECE",
+		"numb”:”207”,
+		"type":
+			[{“track”: Computer Organization”}]
+	}
+
+	{
+		"dept":"ECE",
+		"numb”:”349”,
+		"type":
+			[
+				{“track”: “VLSI Design”},
+				{“track”: “Signals/Systems/Communications”},
+				{“track”: “Waves and Devices”},
+				{“track”: “Computer Organization”},
+			]
 	}
 
 ]
