@@ -57,7 +57,6 @@
 <body>
 <div class="container">
 	<div class="row clearfix">
-	    <div id="leftchunk">
 		<div class="col-md-4 column" id="color1">
 			<h2>
 				My Major
@@ -109,7 +108,6 @@
                                 </div>
                         </div>
 		</div>
-	    </div>
 		<div class="col-md-8 column">
 			<h3>
 				Freshman
