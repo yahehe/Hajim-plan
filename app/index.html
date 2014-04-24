@@ -42,30 +42,23 @@
 	<div class="topbutton"> Signout </div>
 	<div id="body">
 	<div id="leftchunk" class="curvedborder">
-
-	My Major
-
+	My Major 
 
 
+		<div class="btn-group" ng-controller="majorCtrl">
+		  <a class="btn dropdown-toggle" data-toggle="dropdown"> {{active.name}} <span class="caret"></span> </a>
+		  
+		  <ul class="dropdown-menu">
 
+		    <!-- dropdown menu links --> 
+		    <li ng-repeat="major in majors" ng-click="$parent.active = major; $parent.active.name = 'test' " >
+		    	<a role="menuitem" tabindex="-1" > {{major.name}}</a>
+		    </li>
 
+		    </ul>
 
-
-	<div class="btn-group" ng-controller="majorCtrl" >
-	  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> {{active.name}} <span class="caret"></span> </a>
-	  <ul class="dropdown-menu">
-	    <!-- dropdown menu links -->
-	    
-	    <li ng-repeat="major in majors" ng-click="$parent.active = major" >
-	    	<a role="menuitem" tabindex="-1" href="#" > {{major.name}}</a>
-	    </li>
-
-
-	    </ul>
-	</div>
-	
-
-		
+		</div>
+				
 
 
 
@@ -109,9 +102,9 @@
 			 <td></td> 
 			</tr>
 			<tr>
-			  <td class="classes class100">1</td>
-                          <td class="classes class100">2</td>
-                          <td class="classes class200">
+			  			<td class="classes class100">1</td>
+                        <td class="classes class100">2</td>
+                        <td class="classes class200">
 			  CHM -11<br>
 			  Negative?!<br>
 			  Never
