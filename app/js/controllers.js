@@ -3,6 +3,7 @@
 /* Controllers */
 
 var scheduleControllers = angular.module('scheduleControllers', []);
+var currentMajor = 'ME';
 
 scheduleControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
   function($scope, Phone) {
@@ -18,7 +19,7 @@ scheduleControllers.controller('majorCtrl', ['$scope', '$http',
 scheduleControllers.controller('scheduleCtrl', ['$scope', '$http', 
   function($scope, $http) {
   	//if($scope.majors === null) $scope.majors = 'ECE'; 
-  	var currentMajor = 'CHE';//$scope.majors;
+  
   	var reqsUrl = 'reqs/' + currentMajor + '.json';
   	$http.get(reqsUrl).success(function(data) {
   		$scope.reqs = data;
