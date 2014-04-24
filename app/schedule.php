@@ -56,9 +56,6 @@ ev.target.appendChild(document.getElementById(data));
 }
 </script>
 
-<?php
-	$class_list = array("CSC 171","CSC 172","CSC 173");
-?>
 
 </head>
 
@@ -79,13 +76,11 @@ ev.target.appendChild(document.getElementById(data));
 				<div class="col-md-12 column">
 					<ul>
 						<li>
-							<?php echo $class_list[0];?>
 						</li>
 						<li>
-							<?php echo $class_list[1];?>
 						</li>
 						<li>
-							<?php echo $class_list[2];?>
+							
 						</li>
 						<li>
 							And so on...
@@ -95,13 +90,13 @@ ev.target.appendChild(document.getElementById(data));
 			</div>
 			<div class="row clearfix">
 				<div class="col-md-4 column">
-					<img class="thumbnail" id="drag1" src="http://placehold.it/110x70&text=<?php echo $class_list[0];?>" draggable="true" ondragstart="drag(event)">
+					<img class="thumbnail" id="drag1" src="http://placehold.it/110x70&text=CSC171" draggable="true" ondragstart="drag(event)">
 				</div>
                                 <div class="col-md-4 column">
-                                        <img class="thumbnail" id="drag2" src="http://placehold.it/110x70/777&text=<?php echo $class_list[1];?>" draggable="true" ondragstart="drag(event)">
+                                        <img class="thumbnail" id="drag2" src="http://placehold.it/110x70/777&text=CSC172>" draggable="true" ondragstart="drag(event)">
                                 </div>
                                 <div class="col-md-4 column">
-                                        <img class="thumbnail" id="drag3" src="http://placehold.it/110x70/EEE&text=<?php echo $class_list[2];?>" draggable="true" ondragstart="drag(event)">
+                                        <img class="thumbnail" id="drag3" src="http://placehold.it/110x70/EEE&text=CSC173" draggable="true" ondragstart="drag(event)">
                                 </div>
 			</div>
 			                        <div class="row clearfix">
