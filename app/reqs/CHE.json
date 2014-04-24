@@ -1,109 +1,110 @@
-[	{
-		"dept”:”EAS”,
-		"numb":"10x”,
-		"type”:”core”
+[	
+	{
+		"dept":"EAS",
+		"numb":"10x",
+		"type":"core"
 	},
 	{
-		"dept”:”MTH”,
-		"numb":"161”,
-		"type”:”core”
+		"dept":"MTH",
+		"numb":"161",
+		"type":"core"
 	},
 	{
-		"dept”:”MTH”,
-		"numb":"162”,
-		"type”:”core”
+		"dept":"MTH",
+		"numb":"162",
+		"type":"core"
 	},
 	{
-		"dept”:”MTH”,
-		"numb":"164”,
-		"type”:”core”
+		"dept":"MTH",
+		"numb":"164",
+		"type":"core"
 	},
 	{
-		"dept”:”MTH”,
-		"numb":"165”,
-		"type”:”core”
+		"dept":"MTH",
+		"numb":"165",
+		"type":"core"
 	},
 	{
-		"dept”:”PHY”,
-		"numb":"121”,
-		"type”:”core”
+		"dept":"PHY",
+		"numb":"121",	
+		"type":"core"
 	},
 	{
-		"dept”:”PHY”,
-		"numb":"122”,
-		"type”:”core”
+		"dept":"PHY",
+		"numb":"122",
+		"type":"core"
 	},
 	{
-		"dept”:”CHM”,
-		"numb":"131”,
-		"type”:”core”
+		"dept":"CHM",
+		"numb":"131",
+		"type":"core"
 	},
 	{
-		"dept”:”CHM”,
-		"numb":"132”,
-		"type”:”core”
+		"dept":"CHM",
+		"numb":"132",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”113”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"113",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”150”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"150",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”213”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"213",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”225”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"225",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”231”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"231",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”243”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"243",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”244”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"244",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”246”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"246",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”250”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"250",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”255”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"255",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”258”,
-		"type”:”core”
+		"dept":"CHE",
+		"numb":"258",
+		"type":"core"
 	},
 	{
-		"dept”:”CHE”,
-		"numb”:”259”,
-		"type”:”core”
-	},
-	
+		"dept":"CHE",
+		"numb":"259",
+		"type":"core"
+	}
+]	
 	
 
 	

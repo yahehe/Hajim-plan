@@ -4,7 +4,6 @@
 
 var scheduleApp = angular.module('scheduleApp', [
   'ngRoute',
-  'scheduleAnimations',
   'scheduleControllers',
   'scheduleFilters',
   'scheduleServices'

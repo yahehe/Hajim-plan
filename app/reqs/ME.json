@@ -1,122 +1,122 @@
 [	{
-		"dept”:”EAS”,
-		"numb":"10x”,
-		"type”:”core”
-	},
-	{
-		"dept”:”MTH”,
-		"numb":"161”,
-		"type”:”core”
-	},
-	{
-		"dept”:”MTH”,
-		"numb":"162”,
-		"type”:”core”
-	},
-	{
-		"dept”:”MTH”,
-		"numb":"164”,
-		"type”:”core”
-	},
-	{
-		"dept”:”MTH”,
-		"numb":"165”,
-		"type”:”core”
-	},
-	{
-		"dept”:”PHY”,
-		"numb":"121”,
-		"type”:”core”
-	},
-	{
-		"dept”:”PHY”,
-		"numb":"122”,
-		"type”:”core”
-	},
-	{
-		"dept”:”ME”,
-		"numb":"110”,
+		"dept":"EAS",
+		"numb":"10x",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb":"120”,
+		"dept":"MTH",
+		"numb":"161",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb":"121”,
+		"dept":"MTH",
+		"numb":"162",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb":"122”,
+		"dept":"MTH",
+		"numb":"164",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb":"123”,
+		"dept":"MTH",
+		"numb":"165",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”204”,
+		"dept":"PHY",
+		"numb":"121",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”205”,
+		"dept":"PHY",
+		"numb":"122",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”213”,
+		"dept":"ME",
+		"numb":"110",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”223”,
+		"dept":"ME",
+		"numb":"120",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”225”,
+		"dept":"ME",
+		"numb":"121",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”226”,
+		"dept":"ME",
+		"numb":"122",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”241”,
+		"dept":"ME",
+		"numb":"123",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”242”,
+		"dept":"ME",
+		"numb":"204",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”251”,
+		"dept":"ME",
+		"numb":"205",
 		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”280”,
+		"dept":"ME",
+		"numb":"213",
 		"type":"core"
 	},
 	{
-		"dept”:”ECE”,
-		"numb”:”210”,
-		"type”:”core”
+		"dept":"ME",
+		"numb":"223",
+		"type":"core"
 	},
 	{
-		"dept”:”ME”,
-		"numb”:”210”,
-		"type”:”core”
+		"dept":"ME",
+		"numb":"225",
+		"type":"core"
+	},
+	{
+		"dept":"ME",
+		"numb":"226",
+		"type":"core"
+	},
+	{
+		"dept":"ME",
+		"numb":"241",
+		"type":"core"
+	},
+	{
+		"dept":"ME",
+		"numb":"242",
+		"type":"core"
+	},
+	{
+		"dept":"ME",
+		"numb":"251",
+		"type":"core"
+	},
+	{
+		"dept":"ME",
+		"numb":"280",
+		"type":"core"
+	},
+	{
+		"dept":"ECE",
+		"numb":"210",
+		"type":"core"
+	},
+	{
+		"dept":"ME",
+		"numb":"210",
+		"type":"core"
 	},
 
 ]

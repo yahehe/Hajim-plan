@@ -1,38 +1,38 @@
 [
 	{
-		"dept”:”EAS”,
-		"numb":"10x”,
-		"type”:”core”
+		"dept":"EAS",
+		"numb":"10x",
+		"type":"core"
 	},
 	{
-		"dept”:”MTH”,
-		"numb":"161”,
-		"type”:”core”
+		"dept":"MTH",
+		"numb":"161",
+		"type":"core"
 	},
 	{
-		"dept”:”MTH”,
-		"numb":"162”,
-		"type”:”core”
+		"dept":"MTH",
+		"numb":"162",
+		"type":"core"
 	},
 	{
-		"dept”:”MTH”,
-		"numb":"164”,
-		"type”:”core”
+		"dept":"MTH",
+		"numb":"164",
+		"type":"core"
 	},
 	{
-		"dept”:”MTH”,
-		"numb":"165”,
-		"type”:”core”
+		"dept":"MTH",
+		"numb":"165",
+		"type":"core"
 	},
 	{
-		"dept”:”PHY”,
-		"numb":"121”,
-		"type”:”core”
+		"dept":"PHY",
+		"numb":"121",
+		"type":"core"
 	},
 	{
-		"dept”:”PHY”,
-		"numb":"122”,
-		"type”:”core”
+		"dept":"PHY",
+		"numb":"122",
+		"type":"core"
 	},
 	{
 		"dept":"ECE",
@@ -70,43 +70,43 @@
 		"type":"core"
 	},
 	{
-		"dept”:”ECE,
-		"numb”:”114”,
+		"dept":"ECE,
+		"numb":"114",
 		"type":"core"
 	}
 	{
 		"dept":"ECE",
-		"numb”:”241”,
+		"numb":"241",
 		"type":"core"
 	}
 	{
 		"dept":"ECE",
-		"numb”:”242,
+		"numb":"242,
 		"type":"core"
 	}
 	{
 		"dept":"ECE",
-		"numb”:”221”,
+		"numb":"221",
 		"type":"core"
 	}
 	{
-		"dept”:”ECE,
-		"numb”:”222”,
-		"type":"core"
-	}
-	{
-		"dept":"ECE",
-		"numb”:”230”,
+		"dept":"ECE,
+		"numb":"222",
 		"type":"core"
 	}
 	{
 		"dept":"ECE",
-		"numb”:”2”0”,
+		"numb":"230",
 		"type":"core"
 	}
 	{
 		"dept":"ECE",
-		"numb”:”216”,
+		"numb":"2"0",
+		"type":"core"
+	}
+	{
+		"dept":"ECE",
+		"numb":"216",
 		"type":"core"
 	}
 

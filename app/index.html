@@ -20,8 +20,7 @@
   	<script type='text/javascript' src="js/onLoad.js"></script>
 	<script type='text/javascript' src="js/filters.js"></script>
   	<script type='text/javascript' src="js/services.js"></script>
-	<script type='text/javascript' src="js/animations.js"></script>
-    <script type='text/javascript' src="js/controllers.js"></script>
+	<script type='text/javascript' src="js/controllers.js"></script>
     <script src="../bower_components/bootstrap/js/dropdown.js"></script>
 
 	<script type='text/javascript' src="js/canvas/html2canvas.js"></script>
@@ -83,7 +82,7 @@
 		      <div class="span10">
 
 		        <ul class="reqs">
-		          <li ng-repeat="req in reqs | filter:query" >
+		          <li ng-repeat="req in reqs track by $index | filter:query" >
 		            {{req.dept}} {{req.numb}} | {{req.type}}  
 		          </li>
 		        </ul>
