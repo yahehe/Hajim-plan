@@ -41,8 +41,9 @@
 	<div class="topbutton"> Back </div>
 	<div class="topbutton"> Signout </div>
 	<div id="body">
-	<div id="leftchunk" class="curvedborder">My Major
-	
+	<div id="leftchunk" class="curvedborder">
+
+	My Major
 
 
 
@@ -50,20 +51,13 @@
 
 
 
-
-
-	<div class="btn-group" ng-controller="majorCtrl">
-	  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-	    Major <span class="caret"></span>
-	  </a>
+	<div class="btn-group" ng-controller="majorCtrl" >
+	  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> {{active.name}} <span class="caret"></span> </a>
 	  <ul class="dropdown-menu">
 	    <!-- dropdown menu links -->
 	    
-
-	    <li ng-repeat="major in majors" role="presentation">
-	    	<a role="menuitem" tabindex="-1" href="#" ng-click="currentMajor = {{major.name}}">
-	    	{{major.name}} 
-	    	</a>
+	    <li ng-repeat="major in majors" ng-click="$parent.active = major" >
+	    	<a role="menuitem" tabindex="-1" href="#" > {{major.name}}</a>
 	    </li>
 
 
