@@ -2,8 +2,7 @@
 
 /* Controllers */
 
-var currentMajor = 'ME';
-function updateMajor(newMajor) { currentMajor = newMajor; }
+function updateMajor(newMajor) { currentMajor = newMajor; };
 var scheduleControllers = angular.module('scheduleControllers', []);
 
 scheduleControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
@@ -15,16 +14,23 @@ scheduleControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
 
 scheduleControllers.controller('scheduleCtrl', ['$scope', '$http', 
   function($scope, $http) {
-    //if($scope.majors === null) $scope.majors = 'ECE'; 
-  
-    var reqsUrl = 'reqs/' + currentMajor + '.json';
-  	
-    $http.get('reqs/majors.json').success(function(data) {
-      $scope.majors = data;
-    }); 
-    
-  	$http.get(reqsUrl).success(function(data) {
-  		$scope.reqs = data;
-  	});
+   
 
+  $http.get('reqs/majors.json').success(function(data) {
+    
+    $scope.majors = data;
+    $scope.reqsUrl = new Array();
+  
+    for (var i = 0; $scope.majors.length > i; i++) {
+      
+        $scope.reqsUrl[i] = 'reqs/' + $scope.majors[i].name +'.json';
+        console.log('i = ' + i  + ' '   + $scope.reqsUrl[i] + ' : success'  );
+        $http.get($scope.reqsUrl[i]).success(function($scope, data, i) { 
+          console.log('i = ' + i  + ' '   + $scope.reqsUrl[i] + ' : success'  )
+          //  $scope.reqs[$scope.majors[i].name] = data;         
+        });
+
+    };
+
+  }); 
 }]);

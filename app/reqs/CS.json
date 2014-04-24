@@ -1,4 +1,4 @@
-[
+[	
 	{
 		"dept":"EAS",
 		"numb":"10x",
@@ -26,7 +26,7 @@
 	},
 	{
 		"dept":"PHY",
-		"numb":"121",
+		"numb":"121",	
 		"type":"core"
 	},
 	{
@@ -35,74 +35,76 @@
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"111",
+		"dept":"CHM",
+		"numb":"131",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"112",
+		"dept":"CHM",
+		"numb":"132",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
+		"dept":"CHE",
 		"numb":"113",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"114",
+		"dept":"CHE",
+		"numb":"150",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"111",
+		"dept":"CHE",
+		"numb":"213",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"112",
+		"dept":"CHE",
+		"numb":"225",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"113",
+		"dept":"CHE",
+		"numb":"231",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"114",
+		"dept":"CHE",
+		"numb":"243",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"241",
+		"dept":"CHE",
+		"numb":"244",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"242",
+		"dept":"CHE",
+		"numb":"246",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"221",
+		"dept":"CHE",
+		"numb":"250",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"222",
+		"dept":"CHE",
+		"numb":"255",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"230",
+		"dept":"CHE",
+		"numb":"258",
 		"type":"core"
 	},
 	{
-		"dept":"ECE",
-		"numb":"216",
+		"dept":"CHE",
+		"numb":"259",
 		"type":"core"
 	}
+]	
+	
 
-]
+	
