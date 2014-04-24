@@ -1,0 +1,286 @@
+commit a383bfe20952a7a3c74fc3d32f024baadd062b75
+Author: Thomas Tavolara <ttavolar@u.rochester.edu>
+Date:   Thu Apr 24 19:16:31 2014 +0000
+
+    add htaccess
+
+commit 658401308dc65b1b50c1186e8ee1ddd37bbe0570
+Author: Thomas Tavolara <ttavolar@u.rochester.edu>
+Date:   Thu Apr 24 15:08:46 2014 -0400
+
+    add thomas's stuff
+    
+    wée
+    from aws
+
+commit 0c14715d0b36245698bd13184c7996ddfec122b6
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Thu Apr 24 14:30:27 2014 -0400
+
+    add ame and cs json,  and correct ece json errors
+
+commit 30e6e0ff5344830b194002d46a42842449e207f5
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Thu Apr 24 11:30:05 2014 -0400
+
+    dropdown select working with nginit, combine controllers working
+
+commit 34d3ffbcb161e00b296cee4ac41679168eb86087
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Thu Apr 24 11:19:11 2014 -0400
+
+    working with updating selection
+
+commit 6fa70def42e886076715bfdab68b82c3772664fe
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Wed Apr 23 23:54:55 2014 -0400
+
+    select major with angular now working
+
+commit 24f7690d16e6914a44210b14db91abaf9c982087
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Wed Apr 23 23:17:47 2014 -0400
+
+    fix more json, update index and controller
+
+commit 015e12a3e182b3865c3c5d1e67e53e48ec1b3f08
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Wed Apr 23 22:32:16 2014 -0400
+
+    fix more json files
+
+commit b15d7b0a7ac8063dbe3df8c71125311f724f08c7
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Wed Apr 23 21:11:49 2014 -0400
+
+    fix json quotes and other errors
+
+commit 2eb6a1179acf345074c38526ff49189015b6a822
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Wed Apr 23 15:15:12 2014 -0400
+
+    add favicon
+
+commit e5fc98d65871de10829347858df23c092468cbfc
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 22 15:41:12 2014 -0400
+
+    add dropdown list with angular
+
+commit 780eb051cfcbe29a33a9b9a963dee53b2b36a788
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 22 15:24:38 2014 -0400
+
+    add favicons, controllers for dropdown, change canvas location
+
+commit d3c891859823f224226f14e34b4d311fd3496df7
+Merge: 5d64a3e ea56589
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 22 15:23:41 2014 -0400
+
+    Merge branch 'stage'
+
+commit 5d64a3eb76bcd7512086feb80d87ecd50efcbc4c
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 22 14:45:16 2014 -0400
+
+    edit onloadjs for canvas definition
+
+commit ea56589e0c92d273d0c6f3b2522d2754a0c01cb9
+Merge: 0336cb8 39ed313
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 22 14:44:21 2014 -0400
+
+    Merge branch 'stage' of https://github.com/jeremywrnr/Hajim-plan into stage
+
+commit b76015a926348d5223a2ab48d7bb4b871a384e7e
+Merge: 0336cb8 e9e6cc6
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 22 14:40:47 2014 -0400
+
+    Merge branch 'master' of https://github.com/jeremywrnr/Hajim-plan
+
+commit e9e6cc6624aaef535ef0c8900780837c5805e288
+Author: Pasu Porapakkham <pporapak@u.rochester.edu>
+Date:   Tue Apr 22 14:28:05 2014 -0400
+
+    adding ece tracks
+
+commit 0336cb8129312ba84f792a67d21b43fb0651d747
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 22 13:53:50 2014 -0400
+
+    remove phone indexes, update css, add bootstrap drop down
+
+commit 39ed3139e68b17da2e0c5570faa552037d8bbea8
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 22 09:45:10 2014 -0400
+
+    update proj readme
+
+commit 324ec0fad59b771165318d79a8c8c04638b3b73d
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Sat Apr 19 18:38:29 2014 -0400
+
+    ordering of list now works
+
+commit deb9c0677e0213cd0efb46a2b5920749a2ba4be0
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Sat Apr 19 18:24:57 2014 -0400
+
+    angular still not working but looks better
+
+commit 0b5de0d9150c8b9cddbcf76f5688f8992894f1f2
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Sat Apr 19 17:38:55 2014 -0400
+
+    add hopefully correctly (plz) angular js reference
+
+commit e891d603b96bcb19884769e828eb584ba3e82cbb
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Sat Apr 19 17:31:17 2014 -0400
+
+    add correct angular js reference
+
+commit 3c6a2b1b3f5af2e558aba05864143dc2fe4d62d7
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Sat Apr 19 11:52:32 2014 -0400
+
+    change to ur index page
+
+commit cd742b8919a35879a304d5721fe0291be971017e
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Fri Apr 18 10:44:54 2014 -0400
+
+    add json reqs
+
+commit 2e3ec20ce5a8af30de5eed94c65ed9a9d80feb6c
+Merge: 7460b09 e01969d
+Author: Jeremy Warner <jeremy.warner@rochester.edu>
+Date:   Thu Apr 17 21:30:50 2014 -0400
+
+    merge web removal
+
+commit 7460b097b2ae8967cfced3cf3f8d51833023b576
+Author: Jeremy Warner <jeremy.warner@rochester.edu>
+Date:   Thu Apr 17 21:27:51 2014 -0400
+
+    Revert "revert back to original web js"
+    
+    This reverts commit 53592fe9cc7a207b0cbf8700d9341cde6c04820e.
+
+commit e01969dddf7adefe9a3439b4bb77427da449041e
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Thu Apr 17 15:35:49 2014 -0400
+
+    rewrite with round2 copy (working)
+
+commit c9684e713f1e4c673edcd552a668094cf1c2a919
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Thu Apr 17 14:54:00 2014 -0400
+
+    reset back to phonecat
+
+commit e18f15572a4943c6175eb1f346ab1989a5b6a062
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Thu Apr 17 14:35:34 2014 -0400
+
+    reset to phone app
+
+commit abd645c6cc83577b7ce874fa0ca9e03eff6800f8
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Thu Apr 17 14:20:31 2014 -0400
+
+    copy tom (bikle)
+
+commit 8f06f0de3b65d0229c45b117cb8076331858bcba
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Wed Apr 16 10:51:35 2014 -0400
+
+    remove phone json, modify init package
+
+commit 01d824cfea5ebab3dbf01955651434e9998fcfa2
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Wed Apr 16 00:02:32 2014 -0400
+
+    node broke
+
+commit 8bdc6c4e1e647317c860be1a855b38ee710271ac
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 15 23:41:15 2014 -0400
+
+    clean up repo
+
+commit ea79c5a8a5bc1b90f7aeb191488b549349198866
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 15 23:35:15 2014 -0400
+
+    try new directory
+
+commit f464a847282258acef6a6755941fdfbc06923630
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 15 23:21:52 2014 -0400
+
+    add json files from pasu
+
+commit c1053124885c7146940e5c2cf123138de6de1697
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 15 23:21:08 2014 -0400
+
+    remove phone images
+
+commit 53592fe9cc7a207b0cbf8700d9341cde6c04820e
+Author: Jeremy Warner <jeremy.warner@rochester.edu>
+Date:   Tue Apr 15 19:44:45 2014 -0400
+
+    revert back to original web js
+
+commit 2476ad66c5d6710d7afc50789b3a5f50a8b6a950
+Author: Jeremy Warner <jeremy.warner@rochester.edu>
+Date:   Tue Apr 15 19:37:52 2014 -0400
+
+    Revert "install all other packages - karma"
+    
+    This reverts commit d7ed643f7543af100acc37a131264368aefe58fe.
+
+commit c5d216880c083ea3f365cd54e9d7aabf8cdf3be3
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 15 14:47:37 2014 -0400
+
+    move rest of node app into repo
+
+commit d7ed643f7543af100acc37a131264368aefe58fe
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 15 14:39:22 2014 -0400
+
+    install all other packages - karma
+
+commit 98f555507b083d4fc5330bc54029bbbc2a3c42d2
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Tue Apr 15 14:24:29 2014 -0400
+
+    install bower
+
+commit b4b4b5ffe7fe4c0bde001cffa293b0898243b360
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Mon Apr 14 21:09:19 2014 -0400
+
+    add proc file
+
+commit 7a937d979f99133c4c831270ff5498cd871f0427
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Mon Apr 14 21:07:50 2014 -0400
+
+    install express and logfmt
+
+commit 8fa4df2669a0ba6627ac74ddad3be0082751a3da
+Author: jeremywrnr <jeremy.warner@rochester.edu>
+Date:   Mon Apr 14 21:05:13 2014 -0400
+
+    init npm
+
+commit b5a97f47f499f97703519b34cfa196e3014d3bc3
+Author: Jeremy Warner <jeremy.warner@rochester.edu>
+Date:   Mon Apr 14 12:09:47 2014 -0700
+
+    Initial commit
