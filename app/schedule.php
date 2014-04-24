@@ -8,6 +8,13 @@
 	<meta name="description" content="A schedule for Hajim students.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
  
+
+	<!-- css -->
+	<link href="layoutit/src/css/bootstrap.css" rel="stylesheet">	
+	<link href="layoutit/src/css/bootstrap.min.css" rel="stylesheet">
+	<link href="layoutit/src/css/style.css" rel="stylesheet">
+
+
 	<!-- icons -->
 	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="layoutit/src/img/apple-touch-icon-144-precomposed.png">
@@ -15,31 +22,11 @@
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="layoutit/src/img/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="layoutit/src/img/apple-touch-icon-57-precomposed.png">
 	<link rel="shortcut icon" href="layoutit/src/img/favicon.png">
-	
-	<!-- css -->
-	<link href="layoutit/src/css/bootstrap.css" rel="stylesheet">	
-	<link href="layoutit/src/css/bootstrap.min.css" rel="stylesheet">
-	<link href="layoutit/src/css/style.css" rel="stylesheet">
 	  
 	<!-- javascript -->
-		<!-- angular -->
-  	<script src="lib/jquery/jquery-1.10.2.js"></script>
-  	<script src="lib/angular/angular.js"></script>
-  	<script src="lib/angular/angular-route.js"></script>
-  	<script src="lib/angular/angular-animate.js"></script>
-  	<script src="layoutit/src/js/jquery.min.js"></script>
-	<script src="layoutit/src/js/bootstrap.min.js"></script>
-	<script src="layoutit/src/js/scripts.js"></script>
-
-	<!-- more js dependencies -->
-	<script type='text/javascript' src="js/app.js"></script>
-  	<script type='text/javascript' src="js/drop.js"></script>
-  	<script type='text/javascript' src="js/onLoad.js"></script>
-	<script type='text/javascript' src="js/filters.js"></script>
-  	<script type='text/javascript' src="js/services.js"></script>
-	<script type='text/javascript' src="js/controllers.js"></script>
-    <script src="../bower_components/bootstrap/js/dropdown.js"></script>
+	<script type="text/javascript" src="layoutit/src/js/jquery.min.js"></script>
 	<script type="text/javascript" src="layoutit/src/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="layoutit/src/js/scripts.js"></script>
 
   	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   	<!--[if lt IE 9]>
@@ -50,7 +37,28 @@
 	<!--script src="js/less-1.3.3.min.js"></script-->
 	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
 
-<?php 	$class_list = array("CSC 171","CSC 172","CSC 173");  ?>
+<script>
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=ev.dataTransfer.getData("Text");
+ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+<?php
+	$class_list = array("CSC 171","CSC 172","CSC 173");
+?>
 
 </head>
 
