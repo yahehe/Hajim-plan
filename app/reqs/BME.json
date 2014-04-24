@@ -1,4 +1,5 @@
-[	{
+[	
+	{
 		"dept":"EAS",
 		"numb":"10x",
 		"type":"core"
@@ -87,7 +88,8 @@
 		"dept":"BME",
 		"numb":"296",
 		"type":"core"
-	},
+	}
+]
 	
 	
 

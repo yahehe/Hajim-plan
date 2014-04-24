@@ -70,40 +70,35 @@
 		"type":"core"
 	},
 	{
-		"dept":"ECE,
+		"dept":"ECE",
 		"numb":"114",
 		"type":"core"
-	}
+	},
 	{
 		"dept":"ECE",
 		"numb":"241",
 		"type":"core"
-	}
+	},
 	{
 		"dept":"ECE",
-		"numb":"242,
+		"numb":"242",
 		"type":"core"
-	}
+	},
 	{
 		"dept":"ECE",
 		"numb":"221",
 		"type":"core"
-	}
+	},
 	{
-		"dept":"ECE,
+		"dept":"ECE",
 		"numb":"222",
 		"type":"core"
-	}
+	},
 	{
 		"dept":"ECE",
 		"numb":"230",
 		"type":"core"
-	}
-	{
-		"dept":"ECE",
-		"numb":"2"0",
-		"type":"core"
-	}
+	},
 	{
 		"dept":"ECE",
 		"numb":"216",

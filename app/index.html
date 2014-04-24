@@ -82,7 +82,7 @@
 		      <div class="span10">
 
 		        <ul class="reqs">
-		          <li ng-repeat="req in reqs track by $index | filter:query" >
+		          <li ng-repeat="req in reqs | filter:query" >
 		            {{req.dept}} {{req.numb}} | {{req.type}}  
 		          </li>
 		        </ul>
