@@ -34,6 +34,7 @@
   	<link rel="stylesheet" type="text/css" href="css/animations.css">
     <script type='text/javascript' src="../bower_components/angular/angular.js"></script>
 	<script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
+	<div class="btn-group" ng-controller="majorCtrl">
 	-->
 
 </head>
@@ -41,17 +42,19 @@
 	<div class="topbutton"> Back </div>
 	<div class="topbutton"> Signout </div>
 	<div id="body">
-	<div id="leftchunk" class="curvedborder">
-	My Major 
 
 
-		<div class="btn-group" ng-controller="majorCtrl">
-		  <a class="btn dropdown-toggle" data-toggle="dropdown"> {{active.name}} <span class="caret"></span> </a>
+	<div id="leftchunk" class="curvedborder" ng-controller="scheduleCtrl">
+	
+		<div class="btn-group">
+
+		  <a class="btn dropdown-toggle" data-toggle="dropdown" ng-init="active.name='Please select major'" > 
+		  {{active.name}} <span class="caret"></span> </a>
 		  
 		  <ul class="dropdown-menu">
 
 		    <!-- dropdown menu links --> 
-		    <li ng-repeat="major in majors" ng-click="$parent.active = major; $parent.active.name = 'test' " >
+		    <li ng-repeat="major in majors" ng-click="$parent.active = major; $parent.active" >
 		    	<a role="menuitem" tabindex="-1" > {{major.name}}</a>
 		    </li>
 
@@ -60,10 +63,8 @@
 		</div>
 				
 
-
-
-		<div  class="curvedborder"> Requirements
-		  <div  id="requirements" class="container-fluid" ng-controller="scheduleCtrl">
+		<div  class="curvedborder"> 
+		  <div  id="requirements" class="container-fluid" >
 		    <div class="row-fluid">
 		      <div class="span2">Search: <input ng-model="query"></div>
 		      <div class="span10">
@@ -83,7 +84,7 @@
 
 
 
-
+		<!--
 
 		<div class="majors">
 			<table>
@@ -114,8 +115,13 @@
 
 		</div>
 		<input type="button" id="btnSave" value="Save Schedule As PNG"/>
+		-->
 
 	</div>
+
+
+
+
 	<div id="rightchunk" class="curvedborder">
 		Freshman
 
