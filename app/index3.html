@@ -1,0 +1,156 @@
+<!doctype html>
+
+<html lang="en" ng-app="scheduleApp">
+<head>
+	
+  	<title>Schedule UR</title>
+	<meta charset="utf-8">
+  	<meta name="author" content="SqlThePrql">
+	<meta name="description" content="A schedule for Hajim students.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+	<!-- icons -->
+	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="layoutit/src/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="layoutit/src/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="layoutit/src/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="layoutit/src/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" href="layoutit/src/img/favicon.png">
+		
+	<!-- css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+	<link href="layoutit/src/css/bootstrap.css" rel="stylesheet">	
+	<link href="layoutit/src/css/bootstrap.min.css" rel="stylesheet">
+	<link href="layoutit/src/css/style.css" rel="stylesheet">
+	
+	<!-- angular -->
+  	<script src="lib/jquery/jquery-1.10.2.js"></script>
+  	<script src="lib/angular/angular.js"></script>
+  	<script src="lib/angular/angular-route.js"></script>
+  	<script src="lib/angular/angular-animate.js"></script>
+  	<script src="lib/angular/angular-resource.js"></script>
+	<script src="layoutit/src/js/scripts.js"></script>
+	<script src="layoutit/src/js/jquery.min.js"></script>
+
+	<!-- more js dependencies -->
+	<script type='text/javascript' src="js/app.js"></script>
+  	<script type='text/javascript' src="js/drop.js"></script>
+  	<script type='text/javascript' src="js/onLoad.js"></script>
+	<script type='text/javascript' src="js/filters.js"></script>
+  	<script type='text/javascript' src="js/services.js"></script>
+	<script type='text/javascript' src="js/controllers.js"></script>
+    <script src="../bower_components/bootstrap/js/dropdown.js"></script>
+	<script type="text/javascript" src="layoutit/src/js/bootstrap.min.js"></script>
+
+	<!-- NOT CURRENTLY USING
+	<script type='text/javascript' src="js/canvas/html2canvas.js"></script>
+	<script type='text/javascript' src="js/canvas/base64.js"></script>
+	<script type='text/javascript' src="js/canvas/canvas2image.js"></script>
+	http://jsfiddle.net/8ypxW/3/
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="css/animations.css">
+    <script type='text/javascript' src="../bower_components/angular/angular.js"></script>
+	<script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
+	<div class="btn-group" ng-controller="majorCtrl">
+	-->
+	<?php $class_list = array("CSC 171","CSC 172","CSC 173");?>
+</head>
+<body>
+	<div class="topbutton"> Back </div>
+	<div class="topbutton"> Signout </div>
+	<div id="body">
+
+
+	<div id="leftchunk" class="curvedborder" ng-controller="scheduleCtrl">
+	
+		<div class="btn-group">
+		  <a class="btn dropdown-toggle" data-toggle="dropdown" ng-init="active.name='Please select major'" > 
+		  {{active.name}} <span class="caret"></span> </a>
+		  <ul class="dropdown-menu">
+			    <!-- dropdown menu links --> 
+			    <li ng-repeat="major in majors" ng-click="$parent.active = major" >
+			    	<a role="menuitem" tabindex="-1" > {{major.name}}</a>
+			    </li>
+		    </ul>
+		</div>
+				
+		<div  class="curvedborder"> 
+		  <div  id="requirements" class="container-fluid" >
+		    <div class="row-fluid">
+		      <div class="span2">Search: <input ng-model="query"></div>
+		      <div class="span10">
+
+		        <ul class="reqs">
+		          <li ng-repeat="req in reqs | filter:query" >
+		            {{req.dept}} {{req.numb}} | {{req.type}}  
+		          </li>
+		        </ul>
+
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+
+
+
+	<div id="rightchunk" class="curvedborder"> Freshman
+
+	<hr>
+		<div class="curvedborder_dark fall">	
+		Fall<br><br><br><br><br>
+		</div>
+		
+		<div class="curvedborder_dark spring">
+		Spring<br><br><br><br><br>
+		</div>
+
+        Sophomore
+
+        <hr>    
+                <div class="curvedborder_dark fall">
+                Fall<br><br><br><br><br>
+                </div>
+
+                <div class="curvedborder_dark spring">
+                Spring<br><br><br><br><br>
+                </div>  
+
+        Junior
+
+        <hr>    
+                <div class="curvedborder_dark fall">
+                Fall<br><br><br><br><br>
+                </div>
+
+                <div class="curvedborder_dark spring">
+                Spring<br><br><br><br><br>
+                </div>  
+
+        Senior
+
+        <hr>    
+                <div class="curvedborder_dark fall">
+                Fall<br><br><br><br><br>
+                </div>
+
+                <div class="curvedborder_dark spring">
+                Spring<br><br><br><br><br>
+                </div>
+	
+		<div class="btn button-default">
+		Save
+		</div>
+
+                <div class="button">
+                Clear
+                </div>  	
+	</div>
+	</div><!--end id body-->
+
+
+</body>
+</html>

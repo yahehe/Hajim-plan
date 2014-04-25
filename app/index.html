@@ -1,14 +1,20 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en" ng-app="scheduleApp">
 <head>
-	
-  	<title>Schedule UR</title>
-	<meta charset="utf-8">
+	  	
+  	<title>ScheduleUR</title>
+ 	<meta charset="utf-8">
   	<meta name="author" content="SqlThePrql">
 	<meta name="description" content="A schedule for Hajim students.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+ 
+
+	<!-- css -->
+	<link href="layoutit/src/css/bootstrap.css" rel="stylesheet">	
+	<link href="layoutit/src/css/bootstrap.min.css" rel="stylesheet">
+	<link href="layoutit/src/css/style.css" rel="stylesheet">
+
+
 	<!-- icons -->
 	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="layoutit/src/img/apple-touch-icon-144-precomposed.png">
@@ -16,141 +22,150 @@
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="layoutit/src/img/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="layoutit/src/img/apple-touch-icon-57-precomposed.png">
 	<link rel="shortcut icon" href="layoutit/src/img/favicon.png">
-		
-	<!-- css -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
-	<link href="layoutit/src/css/bootstrap.css" rel="stylesheet">	
-	<link href="layoutit/src/css/bootstrap.min.css" rel="stylesheet">
-	<link href="layoutit/src/css/style.css" rel="stylesheet">
-	
-	<!-- angular -->
-  	<script src="lib/jquery/jquery-1.10.2.js"></script>
-  	<script src="lib/angular/angular.js"></script>
-  	<script src="lib/angular/angular-route.js"></script>
-  	<script src="lib/angular/angular-animate.js"></script>
-  	<script src="lib/angular/angular-resource.js"></script>
-	<script src="layoutit/src/js/scripts.js"></script>
-	<script src="layoutit/src/js/jquery.min.js"></script>
-
-	<!-- more js dependencies -->
-	<script type='text/javascript' src="js/app.js"></script>
-  	<script type='text/javascript' src="js/drop.js"></script>
-  	<script type='text/javascript' src="js/onLoad.js"></script>
-	<script type='text/javascript' src="js/filters.js"></script>
-  	<script type='text/javascript' src="js/services.js"></script>
-	<script type='text/javascript' src="js/controllers.js"></script>
-    <script src="../bower_components/bootstrap/js/dropdown.js"></script>
+	  
+	<!-- javascript -->
+	<script type="text/javascript" src="layoutit/src/js/jquery.min.js"></script>
 	<script type="text/javascript" src="layoutit/src/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="layoutit/src/js/scripts.js"></script>
 
-	<!-- NOT CURRENTLY USING
-	<script type='text/javascript' src="js/canvas/html2canvas.js"></script>
-	<script type='text/javascript' src="js/canvas/base64.js"></script>
-	<script type='text/javascript' src="js/canvas/canvas2image.js"></script>
-	http://jsfiddle.net/8ypxW/3/
-	<link rel="stylesheet" type="text/css" href="css/app.css">
-  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  	<link rel="stylesheet" type="text/css" href="css/animations.css">
-    <script type='text/javascript' src="../bower_components/angular/angular.js"></script>
-	<script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
-	<div class="btn-group" ng-controller="majorCtrl">
-	-->
-	<?php $class_list = array("CSC 171","CSC 172","CSC 173");?>
+  	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  	<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  	<![endif]-->
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+
+<script>
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=ev.dataTransfer.getData("Text");
+ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+
 </head>
+
 <body>
-	<div class="topbutton"> Back </div>
-	<div class="topbutton"> Signout </div>
-	<div id="body">
-
-
-	<div id="leftchunk" class="curvedborder" ng-controller="scheduleCtrl">
-	
-		<div class="btn-group">
-		  <a class="btn dropdown-toggle" data-toggle="dropdown" ng-init="active.name='Please select major'" > 
-		  {{active.name}} <span class="caret"></span> </a>
-		  <ul class="dropdown-menu">
-			    <!-- dropdown menu links --> 
-			    <li ng-repeat="major in majors" ng-click="$parent.active = major" >
-			    	<a role="menuitem" tabindex="-1" > {{major.name}}</a>
-			    </li>
-		    </ul>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-4 column" id="color1">
+			<h2>
+				My Major
+			</h2>
+			<div class="dropdown">
+				<a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					<li><a href="#">Item 1</a></li>
+					</ul>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<ul>
+						<li>
+						</li>
+						<li>
+						</li>
+						<li>
+							
+						</li>
+						<li>
+							And so on...
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-4 column">
+					<img class="thumbnail" id="drag1" src="http://placehold.it/110x70&text=CSC171" draggable="true" ondragstart="drag(event)">
+				</div>
+                                <div class="col-md-4 column">
+                                        <img class="thumbnail" id="drag2" src="http://placehold.it/110x70/777&text=CSC172>" draggable="true" ondragstart="drag(event)">
+                                </div>
+                                <div class="col-md-4 column">
+                                        <img class="thumbnail" id="drag3" src="http://placehold.it/110x70/EEE&text=CSC173" draggable="true" ondragstart="drag(event)">
+                                </div>
+			</div>
+			                        <div class="row clearfix">
+                                <div class="col-md-4 column">
+                                        <a title="Image 1" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/777"></a>
+                                </div>
+                                <div class="col-md-4 column">
+                                        <a title="Image 2" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/EEE"></a>
+                                </div>
+                                <div class="col-md-4 column">
+                                        <a title="Image 2" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/DDD"></a>
+                                </div>
+                        </div>
 		</div>
-				
-		<div  class="curvedborder"> 
-		  <div  id="requirements" class="container-fluid" >
-		    <div class="row-fluid">
-		      <div class="span2">Search: <input ng-model="query"></div>
-		      <div class="span10">
-
-		        <ul class="reqs">
-		          <li ng-repeat="req in reqs | filter:query" >
-		            {{req.dept}} {{req.numb}} | {{req.type}}  
-		          </li>
-		        </ul>
-
-		      </div>
-		    </div>
-		  </div>
+		<div class="col-md-8 column">
+			<h3>
+				Freshman
+			</h3>
+			<div class="row clearfix">
+				<div class="col-md-6 column">
+					<div class="col-md-4 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+					Here
+					</div>
+                                        <div class="col-md-4 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+					Here
+                                        </div>
+                                        <div class="col-md-4 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+					Here
+                                        </div>
+				</div>
+				<div class="col-md-6 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+				</br></br></br></br>
+				</div>
+			</div>
+			<h3>
+				Sophomore
+			</h3>
+			<div class="row clearfix">
+				<div class="col-md-6 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+				Some stuff here
+				</div>
+				<div class="col-md-6 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+				Some stuff here
+				</div>
+			</div>
+			<h3>
+				Junior
+			</h3>
+			<div class="row clearfix">
+				<div class="col-md-6 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+				Some stuff here
+				</div>
+				<div class="col-md-6 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+				Some stuff here
+				</div>
+			</div>
+			<h3>
+				Senior
+			</h3>
+			<div class="row clearfix">
+				<div class="col-md-6 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+				Some stuff here
+				</div>
+				<div class="col-md-6 column" ondrop="drop(event)" ondragover="allowDrop(event)">
+				Some stuff here
+				</div>
+			</div>
 		</div>
 	</div>
-
-
-
-
-	<div id="rightchunk" class="curvedborder"> Freshman
-
-	<hr>
-		<div class="curvedborder_dark fall">	
-		Fall<br><br><br><br><br>
-		</div>
-		
-		<div class="curvedborder_dark spring">
-		Spring<br><br><br><br><br>
-		</div>
-
-        Sophomore
-
-        <hr>    
-                <div class="curvedborder_dark fall">
-                Fall<br><br><br><br><br>
-                </div>
-
-                <div class="curvedborder_dark spring">
-                Spring<br><br><br><br><br>
-                </div>  
-
-        Junior
-
-        <hr>    
-                <div class="curvedborder_dark fall">
-                Fall<br><br><br><br><br>
-                </div>
-
-                <div class="curvedborder_dark spring">
-                Spring<br><br><br><br><br>
-                </div>  
-
-        Senior
-
-        <hr>    
-                <div class="curvedborder_dark fall">
-                Fall<br><br><br><br><br>
-                </div>
-
-                <div class="curvedborder_dark spring">
-                Spring<br><br><br><br><br>
-                </div>
-	
-		<div class="btn button-default">
-		Save
-		</div>
-
-                <div class="button">
-                Clear
-                </div>  	
-	</div>
-	</div><!--end id body-->
-
-
+</div>
 </body>
 </html>
