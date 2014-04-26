@@ -1,0 +1,20 @@
+#FAQ {
+    font-family: Gill Sans;
+    font-size: 36px;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+span {
+    font-weight:bold;
+}
+
+#questions {
+    font-family: Gill Sans;
+    font-size: 14px;
+    display: block;
+    color:grey;
+    text-align:left;
+    margin-left:50px;
+    margin-bottom: 20px;
+}
