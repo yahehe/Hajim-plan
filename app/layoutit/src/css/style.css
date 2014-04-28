@@ -3,6 +3,11 @@
  * Styling for main page
  */
 
+.clear_button
+{
+float:right;
+}
+
 .course_container
 {
 width:120px;
