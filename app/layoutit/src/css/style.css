@@ -3,6 +3,12 @@
  * Styling for main page
  */
 
+.course_container
+{
+width:120px;
+height:80px;
+}
+
 #color1
 {
 background-color:#99CCAA;
