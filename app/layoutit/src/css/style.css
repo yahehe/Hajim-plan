@@ -3,6 +3,17 @@
  * Styling for main page
  */
 
+.fullwider
+{
+width:100%;
+}
+
+.wider
+{
+width:74%;
+}
+
+
 .clear_button
 {
 float:right;
@@ -18,6 +29,7 @@ height:80px;
 {
 background-color:#99CCAA;
 height:1000px;
+width:25%;
 }
 
 #color2

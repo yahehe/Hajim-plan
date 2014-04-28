@@ -6,8 +6,8 @@
  	<meta charset="utf-8">
   	<meta name="author" content="SqlThePrql">
 	<meta name="description" content="A schedule for Hajim students.">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
 	<!-- css -->
 	<link href="layoutit/src/css/bootstrap.css" rel="stylesheet">	
 	<link href="layoutit/src/css/bootstrap.min.css" rel="stylesheet">
@@ -37,10 +37,10 @@
 	<script type='text/javascript' src="js/controllers.js"></script>
 
 	<!-- strappin' booty -->
-	<script src="../bower_components/bootstrap/js/dropdown.js"></script>
-	<script type="text/javascript" src="layoutit/src/js/scripts.js"></script>
 	<script type="text/javascript" src="layoutit/src/js/jquery.min.js"></script>
 	<script type="text/javascript" src="layoutit/src/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="layoutit/src/js/scripts.js"></script>
+	<script src="../bower_components/bootstrap/js/dropdown.js"></script>
   	
   	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   	<!--[if lt IE 9]>
@@ -54,7 +54,7 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container fullwider">
 	<div class="row clearfix">
 		<div class="col-md-4 column" id="color1" ng-controller="scheduleCtrl">
 			<h2>
@@ -111,17 +111,17 @@
 			</div>
 			                        <div class="row clearfix">
                                 <div class="col-md-4 column">
-                                        <a title="Image 1" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/777"></a>
+                                        <img class="thumbnail" id="drag4" src="http://placehold.it/110x70/777&text=CSC210" draggable="true" ondragstart="drag(event)">
                                 </div>
                                 <div class="col-md-4 column">
-                                        <a title="Image 2" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/EEE"></a>
+                                        <img class="thumbnail" id="drag5" src="http://placehold.it/110x70/EEE&text=CSC242" draggable="true" ondragstart="drag(event)">
                                 </div>
                                 <div class="col-md-4 column">
-                                        <a title="Image 2" href="#"><img class="thumbnail img-responsive" src="//placehold.it/600x350/DDD"></a>
+                                        <img class="thumbnail" id="drag6" src="http://placehold.it/110x70&text=CSC282" draggable="true" ondragstart="drag(event)">
                                 </div>
                         </div>
 		</div>
-		<div class="col-md-8 column">
+		<div class="col-md-8 column wider">
 			<h3>
 				Freshman
 			</h3>
@@ -137,6 +137,9 @@
                                         <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
 					
                                         </div>
+                                        <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                                        </div>
 				</div>
 				<div class="col-md-6 column">
 					<h5>Spring</h5>
@@ -148,6 +151,9 @@
                                         </div>
                                         <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
                                         
+                                        </div>
+                                        <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
+
                                         </div>
 				</div>
 			</div>
@@ -165,10 +171,16 @@
                                         </div>
                                         <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
 
+                                        </div>
+                                        <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
+
                                         </div>				
 				</div>
 				<div class="col-md-6 column">
 					<h5>Spring</h5>
+                                        <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                                        </div>
                                         <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
 
                                         </div>
@@ -195,9 +207,15 @@
                                         <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
 
                                         </div>
+                                        <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                                        </div>
 				</div>
 				<div class="col-md-6 column">
 					<h5>Spring</h5>
+                                        <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                                        </div>
                                         <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
 
                                         </div>
@@ -224,9 +242,15 @@
                                         <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
 
                                         </div>
+                                        <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                                        </div>
 				</div>
 				<div class="col-md-6 column">
 					<h5>Spring</h5>
+                                        <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                                        </div>
                                         <div class="col-md-4 column course_container" ondrop="drop(event)" ondragover="allowDrop(event)">
 
                                         </div>
