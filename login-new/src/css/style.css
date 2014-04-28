@@ -1,0 +1,25 @@
+.container {
+    width:50%;
+}
+
+.textsize {
+    font-size:14px;
+    
+}
+
+.ScheduleUR {
+    font-size:45px;
+    font-family:gill sands;   
+}
+
+#blue {
+    color:#0000CC;
+    font-weight:bold;
+}
+#gold {
+    color:#FF9900;
+    font-weight:bold;
+}
+#grey {
+    color:grey;
+}
