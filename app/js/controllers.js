@@ -2,8 +2,6 @@
 
 /* Controllers */
 
-var currentMajor = 'ME';
-function updateMajor(newMajor) { currentMajor = newMajor; }
 var scheduleControllers = angular.module('scheduleControllers', []);
 
 scheduleControllers.controller('scheduleCtrl', ['$scope', '$http', 

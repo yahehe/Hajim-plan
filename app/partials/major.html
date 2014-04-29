@@ -16,7 +16,8 @@
       <div class="span10">
         
 		  <div ng-repeat="req in reqs | filter:query" class="col-md-4 column">
-			<img class="thumbnail" id="drag{{$index+1}}" src="http://placehold.it/110x70&text={{req.dept+req.numb}}" draggable="true" ondragstart="drag(event)">
+			<img ng-if="req.dept !== params.currentMajor" class="thumbnail" id="drag{{$index+1}}" src="http://placehold.it/110x70/777/E1F2DF&text={{req.dept+req.numb}}" draggable="true" ondragstart="drag(event)">
+			<img ng-if="req.dept === params.currentMajor" class="thumbnail" id="drag{{$index+1}}" src="http://placehold.it/110x70/567A51/E1F2DF&text={{req.dept+req.numb}}" draggable="true" ondragstart="drag(event)">
 		  </div>
         
       </div>
