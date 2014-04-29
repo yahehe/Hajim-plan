@@ -6,25 +6,21 @@ var currentMajor = 'ME';
 function updateMajor(newMajor) { currentMajor = newMajor; }
 var scheduleControllers = angular.module('scheduleControllers', []);
 
-scheduleControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
-  function($scope, Phone) {
-    $scope.phones = Phone.query();
-    $scope.orderProp = 'age';
-  }]);
-
-
 scheduleControllers.controller('scheduleCtrl', ['$scope', '$http', 
   function($scope, $http) {
-    //if($scope.majors === null) $scope.majors = 'ECE'; 
-  
-    var reqsUrl = 'reqs/' + currentMajor + '.json';
-    
     $http.get('reqs/majors.json').success(function(data) {
       $scope.majors = data;
     }); 
-    
-    $http.get(reqsUrl).success(function(data) {
+}]);
+
+scheduleControllers.controller('MajorDetailCtrl', ['$scope', '$routeParams', '$http',
+  function($scope, $routeParams, $http) {
+  	//console.log($routeParams);
+  	$scope.params = $routeParams;
+  	$http.get('reqs/majors.json').success(function(data) {
+      $scope.majors = data;
+    }); 
+    $http.get('reqs/' + $scope.params.currentMajor + '.json').success(function(data) {
       $scope.reqs = data;
     });
-
-}]);
+  }]);

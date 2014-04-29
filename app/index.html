@@ -5,7 +5,7 @@
   	<title>ScheduleUR</title>
  	<meta charset="utf-8">
   	<meta name="author" content="SqlThePrql">
-	<meta name="description" content="A schedule for Hajim students.">
+	<meta name="description" content="A full schedule for Hajim students.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
  
 	<!-- css -->
@@ -56,33 +56,9 @@
 <body>
 <div class="container fullwider">
 	<div class="row clearfix">
-		<div class="col-md-4 column" id="color1" ng-controller="scheduleCtrl">
-			<h2> My Major </h2>
 
-					<div class="btn-group">
-						<a href="#" class="btn dropdown-toggle" data-toggle="dropdown" ng-init="active.name='Please select major'" > 
-					  	{{active.name}} <span class="caret"></span> </a>
-					  	<ul class="dropdown-menu">
-						    <!-- dropdown menu links --> 
-						    <li ng-repeat="major in majors" ng-click="$parent.active = major" >
-						    	<a role="menuitem" tabindex="-1" >{{major.name}}</a>
-						    </li>
-					    </ul>
-					</div>
-					<div id="requirements">
-				    <div class="row clearfix">
-				      <div class="span2">Search: <input ng-model="query"></div><br>
-				      <div class="span10">
-				        
-						  <div ng-repeat="req in reqs | filter:query" class="col-md-4 column">
-							<img class="thumbnail" id="drag{{$index+1}}" src="http://placehold.it/110x70&text={{req.dept+req.numb}}" draggable="true" ondragstart="drag(event)">
-						  </div>
-				        
-				      </div>
-				    </div>
-				  </div>
-			                  
-		</div>
+		<div class="col-md-4 column" id="color1" ng-view></div>
+		
 		<div class="col-md-8 column wider">
 			<h3>
 				Freshman

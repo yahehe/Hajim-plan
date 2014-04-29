@@ -1,0 +1,21 @@
+ <h2> My Major </h2>
+
+	<div class="btn-group">
+		<a class="btn dropdown-toggle" data-toggle="dropdown" ng-init="active.name='Please select major'" > 
+	  	{{active.name}} <span class="caret"></span> </a>
+	  	<ul class="dropdown-menu">
+		    <!-- dropdown menu links --> 
+		    <li ng-repeat="major in majors" ng-click="$parent.active = major" >
+		    	<a href="#/{{major.name}}" role="menuitem" tabindex="-1" >{{major.name}}</a>
+		    </li>
+	    </ul>
+	</div>
+	<div id="requirements">
+    <div class="row clearfix">
+      <div class="span2"></div><br>
+      <div class="span10">
+        
+        
+      </div>
+    </div>
+  </div>

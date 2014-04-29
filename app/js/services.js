@@ -2,11 +2,14 @@
 
 /* Services */
 
-var scheduleServices = angular.module('scheduleServices', ['ngResource']);
+/*
 
-scheduleServices.factory('Phone', ['$resource',
+var scheduleServices = angular.module('scheduleServices', ['ngResource']);
+scheduleServices.factory('Major', ['$resource',
   function($resource){
-    return $resource('phones/:phoneId.json', {}, {
-      query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
+    return $resource('reqs/:majorId.json', {}, {
+      query: {method:'GET', params:{major:'major'}, isArray:true}
     });
  }]);
+
+*/
